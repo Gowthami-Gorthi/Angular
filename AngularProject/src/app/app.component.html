@@ -1,11 +1,20 @@
 <!-- Bindings -->
 <!-- 1 way
   ts to html
-
+    string interpolation
+    property binding
+    attribute binding
   html to ts
     event binding
- -->
 
+  2 way
+
+ -->
+ 
  <div>
+  <h2 [style]="check?blueColor:redColor">{{title}}</h2>
   <button (click)="Call('Hello dinesh')">Click</button>
+ </div>
+ <div>
+  <input type="text" [(ngModel)]="title">
  </div>

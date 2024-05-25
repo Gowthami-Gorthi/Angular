@@ -7,7 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'AngularProject';
-  
+  check =true;
+  blueColor={color:'blue'}
+  redColor={color:'red'}
   Call(val:any){
     console.log(val);
   }
